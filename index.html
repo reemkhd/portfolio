@@ -3,57 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons8-heart-30.png" type="image/png">
     <title>Your Name - Portfolio</title>
 </head>
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Your Name</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#introduce-myself">Introduce Myself</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#my-skills">My Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#my-projects">My Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Your Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#introduce-myself">Introduce Myself</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#my-skills">My Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#my-projects">My Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <!-- Introduce Myself Section -->
-    <section id="introduce-myself" class="bg-light">
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container text-center text-white">
+            <h1 class="display-4">Your Name</h1>
+            <p class="lead">Passionate Developer | Web Enthusiast</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="introduce-myself" class="py-5">
         <div class="container">
-            <h1>Your Name</h1>
-            <p class="lead">Welcome to my personal website. I am a passionate developer...</p>
+            <h2 class="display-4 text-center mb-5">About Me</h2>
+            <p class="lead text-center">Welcome to my personal website. I am a passionate developer with a focus on creating web applications...</p>
         </div>
     </section>
 
     <!-- My Skills Section -->
-    <section id="my-skills">
+    <section id="my-skills" class="bg-light py-5">
         <div class="container">
-            <h2>My Skills</h2>
+            <h2 class="display-4 text-center mb-5">My Skills</h2>
             <div class="row">
                 <div class="col-md-4">
-                    <p>HTML5</p>
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML5</h5>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <p>CSS3</p>
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS3</h5>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <p>JavaScript</p>
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                        </div>
+                    </div>
                 </div>
                 <!-- Add more skills as needed -->
             </div>
@@ -61,22 +84,24 @@
     </section>
 
     <!-- My Projects Section -->
-    <section id="my-projects" class="bg-light">
+    <section id="my-projects" class="py-5">
         <div class="container">
-            <h2>My Projects</h2>
+            <h2 class="display-4 text-center mb-5">My Projects</h2>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mb-4">
                     <div class="card">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 1 Image">
                         <div class="card-body">
-                            <h3 class="card-title">Project 1</h3>
+                            <h5 class="card-title">Project 1</h5>
                             <p class="card-text">Description of Project 1...</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mb-4">
                     <div class="card">
+                        <img src="project2.jpg" class="card-img-top" alt="Project 2 Image">
                         <div class="card-body">
-                            <h3 class="card-title">Project 2</h3>
+                            <h5 class="card-title">Project 2</h5>
                             <p class="card-text">Description of Project 2...</p>
                         </div>
                     </div>
@@ -87,22 +112,25 @@
     </section>
 
     <!-- Contact Me Section -->
-    <section id="contact-me">
+    <section id="contact-me" class="bg-light py-5">
         <div class="container">
-            <h2>Contact Me</h2>
-            <p>Feel free to reach out to me through the following channels:</p>
-            <ul>
-                <li>Email: your.email@example.com</li>
-                <li>LinkedIn: linkedin.com/in/yourusername</li>
-                <li>GitHub: github.com/yourusername</li>
-            </ul>
+            <h2 class="display-4 text-center mb-5">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <ul class="list-unstyled">
+                        <li>Email: your.email@example.com</li>
+                        <li>LinkedIn: linkedin.com/in/yourusername</li>
+                        <li>GitHub: github.com/yourusername</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Bootstrap JS and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
