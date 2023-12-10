@@ -2,23 +2,16 @@
 
 body {
     padding-top: 56px; /* Adjust based on your navbar height */
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Light text color */
 }
 
-#hero {
-    height: 80vh;
-    background: url('hero-bg.jpg') center/cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.navbar {
+    background-color: #343a40 !important; /* Dark navbar background color */
 }
 
-#hero h1 {
-    font-size: 3rem;
-}
-
-#hero p {
-    font-size: 1.5rem;
+.nav-link {
+    color: #ffffff !important; /* Light text color for nav links */
 }
 
 /* Customize as needed */
