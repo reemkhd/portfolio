@@ -5,78 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icons8-heart-30.png" type="image/png">
-    <title> Reem Kdr - Portfolio </title>
+    <title>Your Name - Developer Portfolio</title>
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <!-- Header Section -->
+    <header id="hero" class="text-center text-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Reem</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#introduce-myself">Introduce Myself</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#my-skills">My Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#my-projects">My Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact-me">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
+            <h1 class="display-3">Your Name</h1>
+            <p class="lead">Web Developer</p>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="hero" class="d-flex align-items-center">
-        <div class="container text-center text-white">
-            <h1 class="display-4">Your Name</h1>
-            <p class="lead">Passionate Developer | Web Enthusiast</p>
-        </div>
-    </section>
+    </header>
 
     <!-- About Me Section -->
-    <section id="introduce-myself" class="py-5">
+    <section id="about-me" class="py-5 text-light">
         <div class="container">
-            <h2 class="display-4 text-center mb-5">About Me</h2>
-            <p class="lead text-center">Welcome to my personal website. I am a passionate developer with a focus on creating web applications...</p>
+            <h2 class="display-4 text-center mb-4">About Me</h2>
+            <p class="lead text-center">I'm a passionate web developer with a focus on creating clean and user-friendly websites.</p>
         </div>
     </section>
 
     <!-- My Skills Section -->
-    <section id="my-skills" class="bg-light py-5">
+    <section id="my-skills" class="bg-dark py-5 text-light">
         <div class="container">
-            <h2 class="display-4 text-center mb-5">My Skills</h2>
-            <div class="row">
+            <h2 class="display-4 text-center mb-4">My Skills</h2>
+            <div class="row text-center">
                 <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">HTML5</h5>
-                        </div>
-                    </div>
+                    <h5>HTML5</h5>
                 </div>
                 <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">CSS3</h5>
-                        </div>
-                    </div>
+                    <h5>CSS3</h5>
                 </div>
                 <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">JavaScript</h5>
-                        </div>
-                    </div>
+                    <h5>JavaScript</h5>
                 </div>
                 <!-- Add more skills as needed -->
             </div>
@@ -84,11 +45,11 @@
     </section>
 
     <!-- My Projects Section -->
-    <section id="my-projects" class="py-5">
+    <section id="my-projects" class="py-5 text-light">
         <div class="container">
-            <h2 class="display-4 text-center mb-5">My Projects</h2>
+            <h2 class="display-4 text-center mb-4">My Projects</h2>
             <div class="row">
-                <div class="col-md-6 mb-4">
+                <div class="col-md-4 mb-4">
                     <div class="card">
                         <img src="project1.jpg" class="card-img-top" alt="Project 1 Image">
                         <div class="card-body">
@@ -97,7 +58,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 mb-4">
+                <div class="col-md-4 mb-4">
                     <div class="card">
                         <img src="project2.jpg" class="card-img-top" alt="Project 2 Image">
                         <div class="card-body">
@@ -112,18 +73,14 @@
     </section>
 
     <!-- Contact Me Section -->
-    <section id="contact-me" class="bg-light py-5">
+    <section id="contact-me" class="bg-dark py-5 text-light">
         <div class="container">
-            <h2 class="display-4 text-center mb-5">Contact Me</h2>
-            <div class="row">
-                <div class="col-md-6 mx-auto">
-                    <ul class="list-unstyled">
-                        <li>Email: your.email@example.com</li>
-                        <li>LinkedIn: linkedin.com/in/yourusername</li>
-                        <li>GitHub: github.com/yourusername</li>
-                    </ul>
-                </div>
-            </div>
+            <h2 class="display-4 text-center mb-4">Contact Me</h2>
+            <p class="lead text-center">Let's connect! You can reach me via email or find me on GitHub.</p>
+            <ul class="list-unstyled text-center">
+                <li>Email: your.email@example.com</li>
+                <li>GitHub: <a href="https://github.com/yourusername" target="_blank" class="text-light">github.com/yourusername</a></li>
+            </ul>
         </div>
     </section>
 
