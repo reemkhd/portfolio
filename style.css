@@ -1,0 +1,11 @@
+/* Add your custom styles here */
+
+body {
+    padding-top: 56px; /* Adjust based on your navbar height */
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* Customize as needed */
